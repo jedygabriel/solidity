@@ -20,7 +20,7 @@ contract owned {
 }
 
 
-contract FainaCoin is owned{
+contract VittaCoin is owned{
     
     
     //Eventos que são declarados podem ser observados por entidades de fora
@@ -45,7 +45,7 @@ contract FainaCoin is owned{
     //Cria um endereço de um dado booleano
     mapping (address => bool) public frozenAccount;
     
-    function FainaCoin(uint256 initialSupply, string tokenName, uint8 decimalUnits, string tokenSymbol, address centralMinter) {
+    function VittaCoin(uint256 initialSupply, string tokenName, uint8 decimalUnits, string tokenSymbol, address centralMinter) {
                 
                 timeOfLastProof = now;    //ajuste de dificuldade
 
